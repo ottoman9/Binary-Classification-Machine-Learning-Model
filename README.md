@@ -37,10 +37,15 @@ Evaluated the model on the test data, recording the predicted probabilities.
 ## **🔍 Performance Analysis:**
 
 Highlighted the model's strengths in handling mixed data types and achieving high accuracy.
+
 Compared CatBoost's performance to other models, emphasizing its advantages in this project.
+
 💡 Key Insights:
+
 📏 Data Scaling: Essential for ensuring numerical features are on the same scale, aiding in faster convergence and better model performance.
+
 🔢 One-Hot Encoding: Chosen for its ability to handle non-ordinal categorical features without introducing bias.
+
 🚀 CatBoost: Selected for its efficiency, ease of use, and superior handling of categorical data, leading to high performance in our binary classification task.
 
 ## 🎉 Conclusion:
