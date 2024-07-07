@@ -24,7 +24,7 @@ A Binary Classification Machine Learning Model developed to use provided informa
 Performed GridSearchCV with a range of hyperparameters to find the best combination for maximizing AUC.
 Adjusted parameters like depth, learning rate, and iterations for optimal performance.
 
->🏋️** Model Training and Evaluation:**
+>🏋️ **Model Training and Evaluation:**
 
 Trained the model using cross-validation to validate its performance and avoid overfitting.
 Achieved a mean validation AUC of 0.8670, with further tuning aimed at improving this score.
