@@ -11,7 +11,9 @@ A Binary Classification Machine Learning Model developed to use provided informa
   🔠 Encoding: Used One-Hot Encoding for categorical features to transform them into a binary matrix, preserving all possible categories and avoiding ordinal misrepresentation.
   
 >🤔 Model Selection:
-![image](https://github.com/ottoman9/Binary-Classification-Machine-Learning-Model/assets/84887898/b84e01f2-5714-47a3-9562-0e04a5950c89)
+
+![image](https://github.com/ottoman9/Binary-Classification-Machine-Learning-Model/assets/84887898/4126313a-0e34-482b-ad01-ddd3d367e699)
+
 
 📊 Initial Trials: Considered various models including Logistic Regression, Random Forest, XGBoost, and LightGBM.
 
