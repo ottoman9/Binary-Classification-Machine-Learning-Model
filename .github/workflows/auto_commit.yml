@@ -1,0 +1,33 @@
+name: Auto GitHub Contributions
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+
+      - name: Run Contribution Script
+        run: python script.py
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "your-username"
+          git config --global user.email "your-email@example.com"
+
+      - name: Commit and Push
+        run: |
+          git add daily_contributions.txt
+          git commit -m "Automated commit on $(date)"
+          git push
