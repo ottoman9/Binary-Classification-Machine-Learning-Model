@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: Run Contribution Script
-        run: python script.py
+        run: python rodeo.py
 
       - name: Configure Git
         run: |
